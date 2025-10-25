@@ -39,6 +39,38 @@ sudo pacman -Sy ascii-enc
  - And run it with ```python3 ascii-enc.py``` 
  - Or run it inside IDLE
 
+## usage
+
+### intractive mode
+
+```bash
+./ascii-enc.py
+```
+
+### convert to ascii 
+
+```bash
+./ascii-enc.py [string]
+```
+
+### convert to ascii in a list
+
+```bash
+./ascii-enc.py -l [string]
+```
+
+### convert to string from ascii
+
+```bash
+./ascii-enc.py -r [string]
+```
+
+### more details
+
+```bash
+./ascii-enc.py -h
+```
+
 ---
 
 #### message by [aserdev](https://github.com/aserdevyt) 
@@ -46,6 +78,7 @@ sudo pacman -Sy ascii-enc
 if you are a [macos](https://en.wikipedia.org/wiki/MacOS) user please make a macos app for this python file
 
 and [windows](https://en.wikipedia.org/wiki/Microsoft_Windows) users who can code please make a ```.exe``` or a ```.msi```
+
 
 ---
 
